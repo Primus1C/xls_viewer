@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@grapecity/spread-sheets": "^17.0.5",
+    "@grapecity/spread-sheets-charts": "^17.0.5",
+    "@grapecity/spread-sheets-io": "^17.0.5",
+    "@grapecity/spread-sheets-pivots": "^14.0.0",
+    "@grapecity/spread-sheets-shapes": "^17.0.5"
+  }
+}
