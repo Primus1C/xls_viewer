@@ -166,8 +166,33 @@
                 color: red;
             }
         </style>
-        <h1>Hello world ?</h1>
-        <p>It`s just a text</p>
+<body>
+    <div class="sample-tutorial">
+        <div class="sample-container">
+            <div id="ss" class="sample-spreadsheets"></div>
+            <div id="statusBar"></div>
+        </div>
+        <div class="options-container">
+            <div class="option-row">
+                <div class="inputContainer">
+                    <div class="options-title">Import:</div>
+                    <input class="passwordIpt" id="importPassword" type="password" placeholder="Password" disabled>
+                    <br>
+                    <div id="warningBox"></div>
+                    <input id="selectedFile" type="file" accept=".xlsx" />
+                    <button class="settingButton" id="selectBtn">Select</button>
+                    <button class="settingButton" id="importBtn" disabled>Import</button>
+                </div>
+                <div class="inputContainer">
+                    <div class="options-title">Export:</div>
+                    <input class="passwordIpt" id="exportPassword" type="password" placeholder="Password">
+                    <br>
+                    <button class="settingButton" id="exportBtn">Export</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
         <link
             rel="stylesheet"
             type="text/css"
